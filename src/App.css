@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Karla:wght@500&family=Poiret+One&family=Poppins:wght@300;400;500;700&family=Roboto:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+nav {
+  background-color: #fff7ed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+nav h1 {
+  font-size: 3rem;
+  color: #000;
+  font-weight: 900;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4d4d4d;
+  font-weight: 600;
+}
+
+.nav-links .vans-link,
+.nav-links .about-link {
+  margin-right: 3rem;
+  font-size: 1.5rem;
+}
+
+nav a:hover {
+    color: #161616;
+    text-decoration: underline;
+}
+
+/* HOME PAGE */
+.home-container {
+  background: url("../src/images/home-hero.png");
+  background-size: cover;
+  min-height: 78vh;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.home-container h1 {
+  font-size: 5rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.home-container p {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.home-container a {
+  background-color: #ff8c38;
+  text-decoration: none;
+  color: #fff;
+  width: 100rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.home-container a:hover {
+  background-color: #ed9c62;
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem;
+}
+
+/* ABOUT PAGE */
+.about-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  width: 100%;
+}
+
+.about-page-content, .about-page-cta {
+  margin: 1rem 2rem;
+  color: #161616;
+}
+
+.about-page-content h1 {
+  
+  font-size: 4rem;
+}
+
+.about-page-content p {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+}
+
+.about-page-cta {
+  background-color: #FFCC8D;
+  height: 10rem;
+  line-height: 3rem;
+  padding: 1rem 2rem;
+  
+}
+
+.about-page-cta a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  padding: 1rem 2rem;
+  margin-top: 10rem;
+  border-radius: 10px;
+}
+
+
+
+
+/* FOOTER */
+.footer {
+  background-color: #252525;
+  color: #aaaaaa;
+  padding: 1.5rem 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer .copy-right {
+  font-size: 1.5rem;
+}
